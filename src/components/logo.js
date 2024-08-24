@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 
-export default class Logo extends Component {
+class Logo extends Component {
     render() {
-        const size = {
-            height: this.props.size ? this.props.size : 105, 
-            width: this.props.size ? this.props.size : 105,
-        }
         return (
-            <div className='logo-main'>
-                <img style={size} alt="Logo DSmarty" src="../assets/ds_circle_logo.png"/>
-                
+            <div className="logo-main">
+                <img alt="daily smarty ui image logo big" src="/assets/ds_circle_logo.png"/>
             </div>
-        );
+        )
     }
 }
+
+export default Logo;

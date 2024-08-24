@@ -1,6 +1,6 @@
-import { response } from "express";
-import { SET_RECENT_POSTS } from "./types";
-import axios from "axios"
+import { SET_RECENT_POSTS } from './types';
+
+import axios from 'axios';
 
 export function fetchRecentPosts() {
     return function(dispatch) {
